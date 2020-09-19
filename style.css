@@ -1,20 +1,57 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
-.main {  
+header {
   background-image: url(assets/bg-image.jpg);
   width: 1600px;
   height: 744px;
-  margin-left: 152px;
+  margin: auto;
+}
+.blocks {
+  display: flex;
+}
+.reference a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #fff;
 }
 .reference li{
-  padding-left: 100px;
-  word-spacing: 0px;
   display: inline;
-  position: relative;
+}
+.ref_left {
+  padding-top: 37px;
+  width: 778px;
+}
+.ref_right {
+  padding-top: 37px;
+}
+.ref_About {
+  padding-left: 502px;
+  text-decoration: none;
+  color: #7f7f7f;
+  font-size: 14px;
+}
+.ref_Syllabus {
+  padding-left: 81px;
+  text-decoration: none;
+  color: #7f7f7f;
+  font-size: 14px;
 }
 .logo {
-  padding-left: 778px;
-  padding-top: 25px;
+  padding-top: 24px;
+  width: 44px;
+}
+.ref_Pojects {
+  padding-left: 101px;
+  text-decoration: none;
+  color: #7f7f7f;
+  font-size: 14px;
+}
+.ref_FAQ {
+  padding-left: 83px;
+  text-decoration: none;
+  color: #7f7f7f;
+  font-size: 14px;
 }
