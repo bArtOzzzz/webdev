@@ -79,7 +79,22 @@ header {
   margin-left: 707px;
   border: none;
 }
+.get_started:hover {
+  background-color: #0e9dc0;
+  cursor: pointer;
+}
 .get_started p {
   text-transform: uppercase;
   color: #fff;
+}
+.social_networks {
+  padding-top: 182px;
+  text-align: center;
+  word-spacing: 25px;
+}
+.social_networks li{
+  display: inline;
+}
+.social_networks a {
+  cursor: pointer;
 }
