@@ -140,3 +140,51 @@ header {
   padding-top: 119px;
   padding-left: 255px;
 }
+.second_section {
+  background-color: #f5f6f8;
+  margin-top: 130px;
+  margin-left: 152px;
+  width: 1600px;
+}
+.icon {
+  padding-top: 160px;
+  padding-left: 396px;
+}
+.our_community h3{
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-top: 18px;
+  letter-spacing: 1.7px;
+  padding-left: 339px;
+}
+.our_community p {
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.5;
+  padding-top: 11px;
+  padding-left: 278px;
+}
+.rectangle_2 {
+  padding-top: 126px;
+  padding-left: 155px;
+  padding-bottom: 169px;
+}
+.rectangle_2_1 img {
+  padding-top: 26px;
+  padding-left: 30px;
+}
+.navigation {
+  display: flex;
+  letter-spacing: 10px;
+  font-size: 17px;
+  padding-top: 80px;
+  padding-left: 140px;
+}
+.navigation:hover {
+  color: #1f53a9;
+  cursor: pointer;
+}
+.rectangle_2_2 {
+  padding-top: 126px;
+  padding-left: 30px;
+}
