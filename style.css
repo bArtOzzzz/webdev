@@ -153,7 +153,7 @@ header {
 .second_section {
   background-color: rgba(245, 246, 247, 1);
   height: 504px;
-  margin-left: 153px;
+  margin-left: 152px;
   position: absolute;
   width: 1600px;
 }
@@ -214,7 +214,7 @@ header {
 .third_sec {
   height: 722px;
   width: 1600px;
-  margin-left: 153px;
+  margin-left: 152px;
   margin-top: 623px;
   background: #fff;
 }
@@ -264,7 +264,7 @@ header {
   background-image: url(assets/pexels-christina-morillo-11816751.jpg);
   width: 1600px;
   height: 598px;
-  margin-left: 153px;
+  margin-left: 152px;
   position: absolute;
 }
 .fourth_sec h2{
@@ -300,4 +300,83 @@ header {
 .confirm:hover {
   cursor: pointer;
   color: rgba(0, 175, 219, 1);
+}
+.fifth_sec {
+  width: 1600px;
+  height: 468px;
+  margin-left: 152px;
+  position: absolute;
+  margin-top: 598px;
+  background-color: rgba(245, 246, 247, 1);
+}
+.fifth_sec h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700px;
+  font-size: 24px;
+  line-height: 28,13px;
+  letter-spacing: 1px;
+  color: rgba(55, 55, 55, 1);
+  padding-top: 119px;
+}
+.fifth_sec p {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 21px;
+}
+.dowload_btns {
+  display: flex;
+  margin-left: 597px;
+  margin-top: 30px;
+}
+.apple {
+  width: 128px;
+  height: 50px;
+  background-color: rgba(0, 175, 219, 1);
+  border: none;
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 16,41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  outline: none;
+}
+.apple:hover {
+  cursor: pointer;
+  background-color: rgba(0, 156, 194, 1);
+}
+.apple_icon {
+  width: 60px;
+  height: 50px;
+  background-color: rgba(0, 156, 194, 1);
+  border: none;
+  outline: none;
+}
+.android {
+  width: 128px;
+  height: 50px;
+  background-color: rgba(0, 175, 219, 1);
+  border: none;
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 16,41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  outline: none;
+  margin-left: 30px;
+}
+.android:hover {
+  cursor: pointer;
+  background-color: rgba(0, 156, 194, 1);
+}
+.android_icon {
+  width: 60px;
+  height: 50px;
+  background-color: rgba(0, 156, 194, 1);
+  border: none;
+  outline: none;
 }
