@@ -33,6 +33,9 @@ header {
   color: #7f7f7f;
   font-size: 14px;
 }
+.ref_About a::selection {
+  background: #fff;
+}
 .ref_Syllabus {
   padding-left: 81px;
   text-decoration: none;
@@ -61,8 +64,8 @@ header {
   font-size: 64px;
   font-weight: 700;
   line-height: 75px;
-  letter-spacing: 4.5px;
-  padding-top: 158px;
+  letter-spacing: 4px;
+  padding-top: 156px;
   color: #fff;
 }
 .your_life p {
@@ -70,13 +73,13 @@ header {
   color: rgba(255, 255, 255, 1);
   padding-top: 22px;
   font-size: 18px;
-  line-height: 26,4px;
+  line-height: 26px;
 }
 .btn_block_1 {
   width: 184px;
   height: 46px;
   background-color: #00afdc;
-  margin-top: 33px;
+  margin-top: 27px;
   margin-left: 707px;
   border: none;
   outline: none;
@@ -117,21 +120,21 @@ header {
   line-height: 28,13px;
   letter-spacing: 1px;
   font-size: 24px;
-  padding-top: 294px;
+  padding-top: 293px;
   padding-left: 268px;
 }
 .rappresent p {
   padding-left: 268px;
   padding-top: 21px;
   font-size: 14px;
-  
+  line-height: 20px;
 }
 .btn_block_2 {
   width: 184px;
   height: 46px;
   background-color: #00afdc;
   margin-left: 268px;
-  margin-top: 40px;
+  margin-top: 29px;
   border: none;
   font-weight: 700;
   font-size: 14px;
@@ -147,7 +150,7 @@ header {
 }
 .content_image_1 {
   position: absolute;
-  padding-top: 120px;
+  padding-top: 119px;
   padding-left: 923px;
 }
 .second_section {
@@ -180,17 +183,17 @@ header {
 }
 .rectangle_2 {
   position: absolute;
-  padding-top: 120px;
-  padding-left: 704px;
+  padding-top: 119px;
+  padding-left: 707px;
 }
 .rectangle_2_1 img {
   position: absolute;
-  padding-top: 120px;
-  padding-left: 640px;
+  padding-top: 119px;
+  padding-left: 643px;
 }
 .rectangle_2_2 {
   position: absolute;
-  padding-top: 120px;
+  padding-top: 119px;
   padding-left: 1580px;
 }
 .navigation {
@@ -329,7 +332,7 @@ header {
 .dowload_btns {
   display: flex;
   margin-left: 597px;
-  margin-top: 30px;
+  margin-top: 29px;
 }
 .apple {
   width: 128px;
@@ -379,4 +382,53 @@ header {
   background-color: rgba(0, 156, 194, 1);
   border: none;
   outline: none;
+}
+footer {
+  height: 184px;
+  width: 1600px;
+  background-color: rgba(0, 0, 0, 1);
+  margin-top: 1066px;
+  margin-left: 152px;
+  display: flex;
+}
+footer a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.vl {
+  border: 1px solid rgba(78, 78, 78, 1);
+  height: 7px;
+  margin-top: 79px;
+  margin-left: 20px;
+}
+.credits {
+  padding-top: 74px;
+  padding-left: 160px;
+}
+.privacy {
+  padding-top: 74px;
+  margin-left: 19px;
+}
+.our_teams {
+  padding-top: 74px;
+  margin-left: 19px;
+}
+.logo_footer {
+  margin-left: 382px;
+  margin-top: 60px;
+}
+footer p {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(129, 129, 129, 1);
+  padding-left: 449px;
+  padding-top: 74px;
+}
+footer a:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
