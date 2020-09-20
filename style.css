@@ -166,17 +166,17 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  padding-top: 18px;
+  padding-top: 16px;
   letter-spacing: 2.4px;
-  padding-left: 339px;
+  padding-left: 337px;
 }
 .our_community p {
   position: absolute;
   font-size: 14px;
   text-align: center;
-  line-height: 1.5;
+  line-height: 20px;
   padding-top: 11px;
-  padding-left: 278px;
+  padding-left: 271px;
 }
 .rectangle_2 {
   position: absolute;
@@ -195,7 +195,7 @@ header {
 }
 .navigation {
   position: absolute;
-  letter-spacing: 2.2px;
+  letter-spacing: 2,2px;
   font-weight: 500;
   font-size: 17px;
   padding-top: 71px;
@@ -209,5 +209,53 @@ header {
 }
 .navigation:hover {
   color: #1f53a9;
+  cursor: pointer;
+}
+.third_sec {
+  height: 842px;
+  width: 1600px;
+  margin-left: 153px;
+  margin-top: 623px;
+  background: #fff;
+}
+.content_image_2 {
+  padding-left: 268px;
+}
+.implement_block {
+  display: flex;
+  position: absolute;
+}
+.implement_text h2{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28,13px;
+  letter-spacing: 1px;
+  padding-top: 198px;
+  padding-left: 139px;
+}
+.implement_text p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400px;
+  padding-top: 21px;
+  padding-left: 139px;
+}
+.learn_more {
+  height: 46px;
+  width: 180px;
+  margin-left: 139px;
+  margin-top: 29px;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 175, 219, 1);
+  line-height: 16,41px;
+}
+.learn_more:hover {
+  background-color: rgba(0, 156, 194, 1);
   cursor: pointer;
 }
