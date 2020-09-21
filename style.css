@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 header {
   background-image: url(assets/bg-image.jpg);
@@ -32,9 +32,6 @@ header {
   text-decoration: none;
   color: #7f7f7f;
   font-size: 14px;
-}
-.ref_About a::selection {
-  background: #fff;
 }
 .ref_Syllabus {
   padding-left: 81px;
@@ -114,7 +111,7 @@ header {
   width: 1600px;
   height: 842px;
 }
-.rappresent h2{
+.rappresent h2 {
   text-transform: uppercase;
   font-weight: 700px;
   line-height: 28,13px;
@@ -144,7 +141,7 @@ header {
   background-color: #0e9dc0;
   cursor: pointer;
 }
-.btn_block_2  {
+.btn_block_2 {
   text-transform: uppercase;
   color: #fff;
 }
