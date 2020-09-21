@@ -28,9 +28,10 @@ header {
   padding-top: 37px;
 }
 .ref_About {
-  padding-left: 502px;
+  margin-left: 502px;
   text-decoration: none;
-  color: #7f7f7f;
+  border-bottom: 1px #fff solid;
+  color: #fff;
   font-size: 14px;
 }
 .ref_Syllabus {
