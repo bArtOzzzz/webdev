@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: 'Roboto', sans-serif;
 }
@@ -7,10 +7,10 @@ header {
   background-image: url(assets/bg-image.jpg);
   width: 1600px;
   height: 744px;
-  margin: auto;
 }
 .blocks {
-  display: flex;
+  display: inline-flex;
+  padding-top: 1px;
 }
 .reference a:hover {
   cursor: pointer;
@@ -57,12 +57,13 @@ header {
   font-size: 14px;
 }
 .your_life h1{
-  text-align: center;
+  display: flex;
+  justify-content: center;
   text-transform: uppercase;
   font-size: 64px;
   font-weight: 700;
   line-height: 75px;
-  letter-spacing: 4px;
+  letter-spacing: 4.5px;
   padding-top: 156px;
   color: #fff;
 }
@@ -71,13 +72,13 @@ header {
   color: rgba(255, 255, 255, 1);
   padding-top: 22px;
   font-size: 18px;
-  line-height: 26px;
+  line-height: 25px;
 }
 .btn_block_1 {
   width: 184px;
   height: 46px;
   background-color: #00afdc;
-  margin-top: 27px;
+  margin-top: 29px;
   margin-left: 707px;
   border: none;
   outline: none;
@@ -108,9 +109,12 @@ header {
   display: flex;
 }
 .first_sec {
-  margin-left: 152px;
+  display: flex;
+  justify-content: space-between;
   width: 1600px;
-  height: 842px;
+  max-height: 842px;
+  margin-top: 120px;
+  margin-bottom: 140px;
 }
 .rappresent h2 {
   text-transform: uppercase;
@@ -118,108 +122,114 @@ header {
   line-height: 28,13px;
   letter-spacing: 1px;
   font-size: 24px;
-  padding-top: 293px;
-  padding-left: 268px;
+  padding-top: 174px;
+  padding-right: 290px;
 }
 .text_rappresent {
-  padding-left: 268px;
-  padding-top: 21px;
   font-size: 14px;
   line-height: 20px;
+  padding-top: 21px;
 }
 .btn_get_started {
   width: 184px;
   height: 46px;
-  background-color: #00afdc;
-  margin-left: 268px;
   margin-top: 29px;
+  background-color: rgba(0, 175, 219, 1);
   border: none;
   outline: none;
 }
 .rappresent button:hover {
   cursor: pointer;
+  color: rgba(0, 175, 219, 1);
 }
 .btn_get_started p{
-  text-align: center;
   text-transform: uppercase;
   color: #fff;
   font-weight: 700;
   font-size: 14px;
 }
 .content_image_1 {
-  position: absolute;
-  padding-top: 119px;
-  padding-left: 923px;
+  background-image: url(assets/content-image-1.png);
+  height: 582px;
+  width: 407px;
 }
 .second_section {
+  display: flex;
   background-color: rgba(245, 246, 247, 1);
-  height: 504px;
-  margin-left: 152px;
-  position: absolute;
+  height: 120px;
+  width: 1600px;
+}
+.sec_2 {
+  display: flex;
+  background-color: rgba(245, 246, 247, 1);
   width: 1600px;
 }
 .icon {
-  padding-top: 154px;
-  padding-left: 395px;
+  background-image: url(assets/icon.png);
+  width: 45px;
+  height: 45px;
+  margin-top: 35px;
+  margin-left: 396px;
+  margin-right: 265px;
 }
-.our_community h3{
+.our_comm h2 {
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 16px;
   line-height: 20px;
-  padding-top: 16px;
-  letter-spacing: 2.4px;
-  padding-left: 337px;
+  letter-spacing: 2px;
+  padding-left: 340px;
+  padding-top: 20px;
 }
-.our_community p {
-  position: absolute;
+.our_comm p {
   font-size: 14px;
-  text-align: center;
   line-height: 20px;
+  text-align: center;
+  padding-left: 130px;
   padding-top: 11px;
-  padding-left: 271px;
 }
-.rectangle_2 {
-  position: absolute;
-  padding-top: 119px;
-  padding-left: 707px;
+.slider_img1 {
+  background-image: url(assets/Rectangle\ 2.jpg);
+  height: 244px;
+  width: 407px;
+  margin-right: 30px;
 }
-.rectangle_2_1 img {
-  position: absolute;
-  padding-top: 119px;
-  padding-left: 643px;
+.slider_img2 {
+  background-image: url(assets/inag2.jpg);
+  height: 244px;
+  width: 407px; 
 }
-.rectangle_2_2 {
-  position: absolute;
-  padding-top: 119px;
-  padding-left: 1580px;
+.slider_img3 {
+  background-image: url(assets/smallIMG.jpg);
+  height: 244px;
+  width: 20px;
+  margin-left: 30px;
 }
-.navigation {
-  position: absolute;
-  letter-spacing: 2,2px;
-  font-weight: 500;
-  font-size: 17px;
-  padding-top: 71px;
-  padding-left: 747px;
+.container {
+  display: flex;
+  margin-bottom: 139px;
 }
-.navigation {
-  padding-top: 80px;
-  padding-left: 758px;
-}
-.navigation a {
-  font-size: 19px;
-  letter-spacing: 1px;
+.second_section a {
   text-decoration: none;
   color: #000;
+  font-size: 18px;
+  line-height: 25,2px;
 }
-.navigation a:hover {
+.slider {
+  display: flex;
+  padding-left: 985px;
+  padding-top: 80px;
+  letter-spacing: 4px;
+  font-size: 18px;
+}
+.slider a:hover {
   cursor: pointer;
 }
 .third_sec {
   height: 722px;
   width: 1600px;
   margin-left: 152px;
-  margin-top: 623px;
+  margin-top: 120px;
   background: #fff;
 }
 .content_image_2 {
@@ -314,8 +324,6 @@ header {
 .fifth_sec {
   width: 1600px;
   height: 468px;
-  margin-left: 152px;
-  position: absolute;
   margin-top: 598px;
   background-color: rgba(245, 246, 247, 1);
 }
@@ -337,7 +345,7 @@ header {
   padding-top: 21px;
 }
 .dowload_btns {
-  display: flex;
+  display: inline-flex;
   margin-left: 597px;
   margin-top: 29px;
 }
@@ -396,13 +404,24 @@ header {
 .android_icon img:hover {
   cursor: pointer;
 }
+
+
+
 footer {
   height: 184px;
   width: 1600px;
   background-color: rgba(0, 0, 0, 1);
-  margin-top: 1066px;
-  margin-left: 152px;
+}
+.cont {
   display: flex;
+  align-content: center;
+}
+.foot_elem1 {
+  display: flex;
+  align-content: center;
+  padding-top: 75px;
+  padding-right: 250px;
+  padding-left: 10px;
 }
 footer a {
   text-decoration: none;
@@ -414,32 +433,18 @@ footer a {
 .vl {
   border: 1px solid rgba(78, 78, 78, 1);
   height: 7px;
-  margin-top: 79px;
-  margin-left: 20px;
-}
-.credits {
-  padding-top: 74px;
-  padding-left: 160px;
-}
-.privacy {
-  padding-top: 74px;
-  margin-left: 19px;
-}
-.our_teams {
-  padding-top: 74px;
-  margin-left: 19px;
+  margin-left: 10px;
 }
 .logo_footer {
-  margin-left: 382px;
-  margin-top: 60px;
+  background-image: url(assets/logo.png);
+  width: 44px;
+  height: 44px;
 }
 footer p {
   font-weight: 400px;
   font-size: 14px;
   line-height: 20px;
   color: rgba(129, 129, 129, 1);
-  padding-left: 449px;
-  padding-top: 74px;
 }
 footer a:hover {
   cursor: pointer;
