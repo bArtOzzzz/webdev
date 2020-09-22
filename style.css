@@ -136,8 +136,7 @@ header {
   border: none;
   outline: none;
 }
-.btn_get_started:hover {
-  background-color: #0e9dc0;
+.rappresent button:hover {
   cursor: pointer;
 }
 .btn_get_started p{
