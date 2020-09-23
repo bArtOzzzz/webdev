@@ -12,7 +12,17 @@ header {
   display: inline-flex;
   padding-top: 1px;
 }
-.reference a:hover {
+.ref_Syllabus:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #fff;
+}
+.ref_Pojects:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #fff;
+}
+.ref_FAQ:hover {
   cursor: pointer;
   text-decoration: underline;
   color: #fff;
@@ -77,14 +87,14 @@ header {
 .btn_block_1 {
   width: 184px;
   height: 46px;
-  background-color: #00afdc;
+  background-color: rgba(0, 175, 219, 1);
   margin-top: 29px;
   margin-left: 707px;
   border: none;
   outline: none;
 }
 .btn_block_1:hover {
-  background-color: #0e9dc0;
+  background-color:rgba(0, 156, 194, 1);
   cursor: pointer;
 }
 .btn_block_1 p {
@@ -96,8 +106,6 @@ header {
 }
 .social_networks {
   padding-top: 182px;
-  text-align: center;
-  word-spacing: 25px;
 }
 .social_networks li{
   display: inline;
@@ -108,6 +116,31 @@ header {
 .content {
   display: flex;
 }
+.mail_icon_img {
+  background-image: url(assets/mail_fff.png);
+  height: 20px;
+  width: 20px;
+}
+.facebook_icon_img {
+  background-image: url(assets/facebook_fff.png);
+  height: 20px;
+  width: 20px;
+}
+.insta_icon_img {
+  background-image: url(assets/insta_fff.png);
+  height: 20px;
+  width: 20px;
+}
+.telega_icon_img {
+  background-image: url(assets/telegram_fff.png);
+  height: 20px;
+  width: 20px;
+}
+.social_networks ul {
+  display: flex;
+  width: 200px;
+}
+
 .first_sec {
   display: flex;
   justify-content: space-between;
@@ -140,7 +173,7 @@ header {
 }
 .rappresent button:hover {
   cursor: pointer;
-  color: rgba(0, 175, 219, 1);
+  background-color:rgba(0, 156, 194, 1);
 }
 .btn_get_started p{
   text-transform: uppercase;
@@ -319,7 +352,7 @@ header {
 }
 .confirm:hover {
   cursor: pointer;
-  color: rgba(0, 175, 219, 1);
+  background-color: rgba(0, 156, 194, 1);
 }
 .fifth_sec {
   width: 1600px;
@@ -342,7 +375,7 @@ header {
   font-size: 14px;
   line-height: 20px;
   text-align: center;
-  padding-top: 21px;
+  padding-top: 22px;
 }
 .dowload_btns {
   display: inline-flex;
@@ -375,6 +408,7 @@ header {
 }
 .apple_icon img:hover {
   cursor: pointer;
+  color: rgba(0, 175, 219, 1);
 }
 .android {
   width: 128px;
@@ -404,49 +438,53 @@ header {
 .android_icon img:hover {
   cursor: pointer;
 }
-
-
-
 footer {
-  height: 184px;
+  height: 186px;
   width: 1600px;
   background-color: rgba(0, 0, 0, 1);
-}
-.cont {
   display: flex;
-  align-content: center;
 }
-.foot_elem1 {
-  display: flex;
-  align-content: center;
+.footer_logo {
+  background-image: url(assets/logo.png);
+  background-repeat: no-repeat;
+  height: 44px;
+  width: 80px;
+  margin-top: 60px;
+  margin-right: 120px;
+}
+.footer_left {
   padding-top: 75px;
-  padding-right: 250px;
-  padding-left: 10px;
+  width: 778px;
+  padding-left: 140px;
 }
-footer a {
+.footer_left a {
   text-decoration: none;
   color: rgba(255, 255, 255, 1);
-  font-weight: 400px;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 19,6px;
 }
 .vl {
-  border: 1px solid rgba(78, 78, 78, 1);
-  height: 7px;
-  margin-left: 10px;
+  border-left: 1px solid #4E4E4E ;
+  height: 8px;
+  margin-top: 5px;
 }
-.logo_footer {
-  background-image: url(assets/logo.png);
-  width: 44px;
-  height: 44px;
+.footer_right {
+  width: 778px;
 }
-footer p {
-  font-weight: 400px;
-  font-size: 14px;
-  line-height: 20px;
+.footer_right p {
   color: rgba(129, 129, 129, 1);
+  font-size: 14px;
+  line-height: 19,6px;
+  padding-top: 76px;
+  padding-left: 309px;
 }
-footer a:hover {
-  cursor: pointer;
+.footer_ref {
+  display: inline-flex;
+}
+.footer_ref a {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footer_ref a:hover {
   text-decoration: underline;
 }
